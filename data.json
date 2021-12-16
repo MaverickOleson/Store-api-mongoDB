@@ -1,84 +1,93 @@
 {
     "shoes": [
         {
-            "name": "Air Vapormax 2021 FK",
-            "price": 200,
-            "featured": false,
-            "rating": 4.9,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "nike"
+            "name": "Chicken Shoes",
+            "price": 1000,
+            "featured": true,
+            "rating": 5,
+            "createdAt": "2021-8-11",
+            "company": "Wacky N Tacky",
+            "image": "chicken.jfif"
         },
         {
-            "name": "Air Max 90",
-            "price": 120,
+            "name": "Banana Shoes",
+            "price": 134,
             "featured": false,
-            "rating": 4.8,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "nike"
+            "rating": 4.7,
+            "createdAt": "2021-7-6",
+            "company": "Wacky N Tacky",
+            "image": "bananaShoes.jfif"
         },
         {
-            "name": "SB Zoom Blazer Mid Premium",
-            "price": 105,
+            "name": "Brown... just Brown",
+            "price": 89,
             "featured": true,
             "rating": 4.3,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "nike"
+            "createdAt": "2021-1-14",
+            "company": "Plain Ol Corp.",
+            "image": "brown.jfif"
         },
         {
-            "name": "Air Force 1",
+            "name": "Even More Brown",
             "price": 160,
             "featured": false,
             "rating": 4.7,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "nike"
+            "createdAt": "2021-5-23",
+            "company": "Plain Ol Corp.",
+            "image": "moreBrown.jfif"
         },
         {
-            "name": "Air Max 90 SE",
-            "price": 130,
+            "name": "Feet",
+            "price": 200,
             "featured": false,
-            "rating": 0,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "nike"
+            "rating": 3,
+            "createdAt": "2021-5-8",
+            "company": "All Nature Al",
+            "image": "feet.jpg"
         },
         {
-            "name": "Hermes Boots",
-            "price": 130,
+            "name": "Grass",
+            "price": 180,
+            "featured": true,
+            "rating": 5,
+            "createdAt": "2021-8-17",
+            "company": "Nike",
+            "image": "grass.jpeg"
+        },
+        {
+            "name": "Computer Shoes",
+            "price": 1200,
             "featured": false,
-            "rating": 4,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "terraria"
+            "rating": 2,
+            "createdAt": "2021-2-21",
+            "company": "Electrono's",
+            "image": "computer.jpg"
         },
         {
-            "name": "Dunerider Boots",
-            "price": 150,
-            "featured": false,
-            "rating": 4.2,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "terraria"
-        },
-        {
-            "name": "Spectre Boots",
+            "name": "Bread Shoes",
             "price": 180,
             "featured": false,
             "rating": 4.5,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "terraria"
+            "createdAt": "2021-2-2",
+            "company": "Foot Cuisine"
         },
         {
-            "name": "Lightning Boots",
-            "price": 210,
+            "name": "Clown Shoes",
+            "price": 213,
             "featured": true,
-            "rating": 4.8,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "terraria"
+            "rating": 4.5,
+            "createdAt": "2021-3-4",
+            "company": "Wacky N Tacky",
+            "image": "clown.jfif"
         },
         {
-            "name": "Frostspark Boots",
-            "price": 220,
+            "name": "Motor Shoes",
+            "price": 500,
             "featured": false,
-            "rating": 4.8,
-            "createdAt": "2021-12-14T14:12:43.511Z",
-            "company": "terraria"
+            "rating": 4.9,
+            "createdAt": "2021-7-18",
+            "company": "Electrono's",
+            "image": "motor.jpg"
         },
         {
             "name": "Terraspark Boots",
