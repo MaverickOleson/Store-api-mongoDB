@@ -3,6 +3,18 @@ body{
   background:blue;
 }
 
+h1:nth-of-type(1){
+  background-color: orange;
+  width: fit-content;
+  border-radius: 10px;
+  border: 5px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  margin: auto;
+  margin-top: 15px;
+}
+
 nav{
   width: 100%;
   height: auto;
@@ -39,6 +51,7 @@ nav{
 #productWrap .product:hover{
   cursor: pointer;
   background-color: orange;
+  color: white;
 }
 
 #productWrap .product *{

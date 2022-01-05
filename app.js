@@ -10,10 +10,12 @@ require('dotenv').config();
 app.use(express.json())
 app.use('/store/v1/products', products)
 app.use(express.static('public'))
-
-//routes
-app.get('/hello', (req, res) => {
-	res.send('Task Manager App')
+app.use((err, req, res, next) => {
+	console.error(err.stack)
+	res.status(500).send('<h1 style="text-align: center">Something went wrong!</h1>');
+})
+app.use((req, res, next) => {
+	res.status(404).send(`<h1 style="text-align: center"><span style="color:red">ERROR:</span> PAGE NOT FOUND</h1>`);
 })
 
 const port = 5000;

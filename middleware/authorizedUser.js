@@ -1,3 +1,0 @@
-var users = {
-    "adasf": 'asdf',
-}
